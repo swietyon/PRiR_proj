@@ -7,8 +7,8 @@
 
 int main(int argc, char *argv[]) {
     int num_threads = omp_get_max_threads();
-    char *filename = "file.txt";
-    char *target_phrase = "and her friends";
+    char *filename = "quo-vadis.txt";
+    char *target_phrase = "Pan";
     char buffer[BUFFER_SIZE];
     int phrase_count = 0;
     double start_time, end_time;
