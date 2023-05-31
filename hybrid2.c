@@ -43,7 +43,7 @@ int main(int argc, char *argv[]) {
     char *chunk_buffer = (char*) malloc(chunk_size + strlen(target_phrase) + 1);
 
     // Loop through thread counts from 1 to 32
-    for (int num_threads = 0; num_threads <= 31; num_threads++) {
+    for (int num_threads = 1; num_threads <= 8; num_threads++) {
 
         // Read chunk from file for each process
         fseek(file, rank * chunk_size, SEEK_SET);

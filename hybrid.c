@@ -8,8 +8,8 @@
 
 int main(int argc, char *argv[]) {
     int rank, num_procs, num_threads;
-    char *filename = "ryz.txt";
-    char *target_phrase = "Pan";
+    char *filename = "file_6mb.txt";
+    char *target_phrase = "outside";
     char buffer[BUFFER_SIZE];
     int phrase_count = 0, local_phrase_count = 0;
     double start_time, end_time;

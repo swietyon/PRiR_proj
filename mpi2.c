@@ -7,8 +7,8 @@
 
 int main(int argc, char *argv[]) {
     int rank, num_procs;
-    char *filename = "Ryz.txt";
-    char *target_phrase = "on";
+    char *filename = "file_6mb.txt";
+    char *target_phrase = "outside";
     char buffer[BUFFER_SIZE];
     double start_time, end_time;
     int phrase_count = 0;
@@ -32,11 +32,12 @@ int main(int argc, char *argv[]) {
     fseek(file, 0, SEEK_SET);
 
     // Start timer
-    start_time = MPI_Wtime();
+    
 
     // Iterate over different number of threads
     for (int i = 1; i <= num_procs; i++) {
         // Only execute for the first `i` threads
+        start_time = MPI_Wtime();
         if (rank < i) {
             // Calculate chunk size for each process
             long int chunk_size = file_size / i;

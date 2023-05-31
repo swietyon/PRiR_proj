@@ -1,0 +1,16 @@
+Target phrase "with the" appears 1265 times in file "file_6mb.txt" using 1 threads.
+Execution time: 0.004378 seconds
+Target phrase "with the" appears 1265 times in file "file_6mb.txt" using 2 threads.
+Execution time: 0.003205 seconds
+Target phrase "with the" appears 1265 times in file "file_6mb.txt" using 3 threads.
+Execution time: 0.002750 seconds
+Target phrase "with the" appears 1265 times in file "file_6mb.txt" using 4 threads.
+Execution time: 0.002574 seconds
+Target phrase "with the" appears 1265 times in file "file_6mb.txt" using 5 threads.
+Execution time: 0.002659 seconds
+Target phrase "with the" appears 1265 times in file "file_6mb.txt" using 6 threads.
+Execution time: 0.002993 seconds
+Target phrase "with the" appears 1265 times in file "file_6mb.txt" using 7 threads.
+Execution time: 0.002062 seconds
+Target phrase "with the" appears 1265 times in file "file_6mb.txt" using 8 threads.
+Execution time: 0.006840 seconds
